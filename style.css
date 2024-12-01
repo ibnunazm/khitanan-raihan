@@ -25,6 +25,11 @@ body {
     filter: opacity(50%);
 }
 
+#judul{
+    font-family: 'Sacramento';
+    font-size: 4rem;
+    color: var(--navy);
+}
 
 
 .hero {
@@ -37,8 +42,9 @@ body {
 }
 .hero h1 {
     font-family: "Sacramento", cursive;
-    font-size: 6rem;
+    font-size: 5rem;
     color: var(--navy);
+    margin: 0px;
 }
 
 .hero h3 {
@@ -259,7 +265,7 @@ footer a:hover {
         font-size: 75%;
     }
     .simply-countdown>.simply-section {
-        padding: 70px;
+        padding: 50px;
     }
 
     .home .heart {
@@ -273,7 +279,7 @@ footer a:hover {
         font-size: 65%;
     }
     .simply-countdown>.simply-section {
-        padding: 60px;
+        padding: 40px;
         margin: 5px;
     }    
 }
@@ -284,7 +290,7 @@ footer a:hover {
         font-size: 60%;
     }    
     .simply-countdown>.simply-section {
-        padding: 45px;
+        padding: 35px;
         margin: 3px;
     }
 }
